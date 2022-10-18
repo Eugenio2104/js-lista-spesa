@@ -1,4 +1,4 @@
-//lista spesa for
+//lista spesa while
 
 const listaSpesa = [
   `uova`,
@@ -13,7 +13,3 @@ const listaSpesa = [
 ];
 
 let output = document.getElementById(`lista`);
-
-for(i = 0; i < listaSpesa.length; i++){
-  output.innerHTML += `<li>${listaSpesa[i]}</li>`
-}
